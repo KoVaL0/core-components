@@ -10,8 +10,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "rollup -c",
-    "prepublishOnly": "yarn build",
-    "deploy": "gh-pages -d lib"
+    "deploy-packages": "gh-pages -d lib",
+    "predeploy-storybook": "yarn run build-storybook"
   },
   "np": {
     "publish": false,

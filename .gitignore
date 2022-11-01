@@ -1,3 +1,4 @@
 node_modules/
 lib/
 stories/
+storybook-static/
