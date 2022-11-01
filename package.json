@@ -2,6 +2,7 @@
   "name": "core-components",
   "version": "0.0.0",
   "description": "React UI library with typescript",
+  "homepage": "http://koval0.github.io/core-components",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
@@ -11,7 +12,8 @@
     "build-storybook": "build-storybook",
     "build": "rollup -c",
     "deploy-packages": "gh-pages -d lib",
-    "predeploy-storybook": "yarn run build-storybook"
+    "predeploy-storybook": "yarn run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "np": {
     "publish": false,
