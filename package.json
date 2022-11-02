@@ -1,8 +1,11 @@
 {
-  "name": "core-components",
-  "version": "0.0.0",
+  "name": "koval0-core-components",
+  "version": "1.0.0",
   "description": "React UI library with typescript",
   "homepage": "http://koval0.github.io/core-components",
+  "repository": {
+    "url": "https://github.com/koval0/core-components"
+  },
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
@@ -19,11 +22,6 @@
     "publish": false,
     "tests": false
   },
-  "keywords": [
-    "stroybook",
-    "react",
-    "typescript"
-  ],
   "author": "KoVaL0",
   "license": "MIT",
   "devDependencies": {
